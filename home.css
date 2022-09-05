@@ -1,0 +1,191 @@
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Prompt', sans-serif; */
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: o.5rem 1.8rem;
+}
+.nav-container{
+    padding: 3% 4%;
+}
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.top-container{
+    background-image: url('christopher-burns-Kj2SaNHG-hg-unsplash.jpg') ;
+    background-size: cover;
+}
+
+.top-container-content {
+   color: white;
+    padding: 4% 15% 10%;
+}
+
+.top-container-content h1{
+    padding-top: 2rem;
+    font-weight: 700;
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem ;
+
+}
+.top-container-content p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 0.7rem auto;
+
+}
+.card{
+    box-shadow: 0 20px 8px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background-color: #24657aab ;
+}
+.card:hover{
+    background-color: #3088a5ab ;
+}
+
+#features{
+    padding: 12% 15%;
+}
+#features i{
+    color: #266c8f;
+    padding: 3%;
+}
+
+#features p{
+font-weight: 600;
+    color: #266c8f;
+    margin: 20px
+}
+
+.feature-box{
+    text-align: center;
+    
+    }
+/* OUR TEAM */
+
+.our-team{
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 15%;
+    background-color: #66BFBF;
+    color: white;
+}
+
+#team-title{
+font-weight: 900;
+font-size: 3rem;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.our-team img{
+    width: 10%;
+    margin: 0.6rem;
+}
+.our-team.container{
+    padding: 0 100px;
+    margin: 2rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+.contact-container{
+    
+    padding: 9% 15%;
+}
+.contact-container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    padding-bottom: 10px;
+  }
+  .contact-container  h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+    font-size: 1.5rem;
+  }
+  .contact-container p{
+    font-size: 1.2rem;
+    width: 60%;
+    margin: 2rem auto 3rem;
+  }
+
+
+  #footer{
+    background-color: #66bfbf;
+    color: white;
+    font-size: 600;
+    padding: 7% 15%;
+    text-align: center;
+
+ }
+
+ #footer i{
+    padding: 30px 10px;
+
+ }
+
+/* CSS BUTTON */
+.button-51 {
+    background-color: transparent;
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-51:hover,
+  .button-51:active {
+    outline: 0;
+  }
+  
+  .button-51:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .button-51:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .button-51:hover:before {
+    background-color: #6DCFF6;
+  }
+  
+  @media (min-width: 768px) {
+    .button-51 {
+      padding: 16px 32px;
+    }
+  }
